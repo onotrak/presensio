@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      // "@global_components": [
+      //   "./components/globals/*"
+      // ],
+      // "@styles": [
+      //   "./styles/*"
+      // ],
+      // "@assets": [
+      //   "./assets/*"
+      // ],
+      // "@utils": [
+      //   "./utils/*"
+      // ],
+      // "@screens": [
+      //   "./screens/*"
+      // ],
+      // "@navigations": [
+      //   "./navigations/*"
+      // ],
+    }
+  }
+}

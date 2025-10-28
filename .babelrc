@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "cwd": "babelrc",
+        "root": [
+          "./src"
+        ],
+        "extensions": [
+          ".js",
+          ".ios.js",
+          ".android.js"
+        ],
+        "alias": {
+          "@global_components": "./src/components",
+          "@styles": "./src/styles",
+          "@assets": "./src/assets",
+          "@utils": "./src/utils",
+          "@screens": "./src/screens",
+          "@navigations": "./src/navigations"
+        }
+      }
+    ]
+  ]
+}
